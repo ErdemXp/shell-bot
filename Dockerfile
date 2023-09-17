@@ -1,4 +1,4 @@
 FROM ubuntu:latest
 WORKDIR /app
-COPY "run.sh" .
+COPY . /app
 ENTRYPOINT ["bash", "run.sh"]
