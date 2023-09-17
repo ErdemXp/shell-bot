@@ -1,3 +1,4 @@
+pip install gunicorn flask
 npm install
-node server.js
+gunicorn app:app & node server.js
 
